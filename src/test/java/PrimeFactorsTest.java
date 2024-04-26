@@ -11,4 +11,10 @@ public class PrimeFactorsTest {
         PrimeFactor primFactor = new PrimeFactor();
         assertEquals(Arrays.asList(), primFactor.of(1));
     }
+
+    @Test
+    void testPrimeFactorOf2() {
+        PrimeFactor primFactor = new PrimeFactor();
+        assertEquals(Arrays.asList(2), primFactor.of(2));
+    }
 }
